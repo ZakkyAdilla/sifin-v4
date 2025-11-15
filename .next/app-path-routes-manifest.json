@@ -1,0 +1,11 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/auth/expo-web-success/route": "/api/auth/expo-web-success",
+  "/api/auth/token/route": "/api/auth/token",
+  "/api/invoices/[id]/route": "/api/invoices/[id]",
+  "/api/invoices/route": "/api/invoices",
+  "/dashboard/page": "/dashboard",
+  "/onboarding/page": "/onboarding",
+  "/page": "/"
+}

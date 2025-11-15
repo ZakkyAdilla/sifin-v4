@@ -1,0 +1,11 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/auth/expo-web-success/route": "app/api/auth/expo-web-success/route.js",
+  "/api/auth/token/route": "app/api/auth/token/route.js",
+  "/api/invoices/[id]/route": "app/api/invoices/[id]/route.js",
+  "/api/invoices/route": "app/api/invoices/route.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/onboarding/page": "app/onboarding/page.js",
+  "/page": "app/page.js"
+}

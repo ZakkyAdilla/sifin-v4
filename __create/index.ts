@@ -236,6 +236,9 @@ app.use('/api/auth/*', async (c, next) => {
 app.route(API_BASENAME, api);
 
 export default await createHonoServer({
-  app,
+  configure: (server) => {
+    // Copy all routes and middleware from our app to the server
+    server.route('/', app);
+  },
   defaultLogger: false,
 });

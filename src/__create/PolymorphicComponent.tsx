@@ -56,7 +56,7 @@ type PolymorphicProps<As extends ElementType> = PropsOf<As> &
  * Returns a fallback ref if no ref or a callback ref is passed.
  * Otherwise, it returns the original ref.
  */
-function useOptionalRef<T>(ref?: Ref<T> | null): RefObject<T> {
+function useOptionalRef<T>(ref?: Ref<T> | null): RefObject<T | null> {
   const fallbackRef = useRef<T>(null);
   if (ref && 'instance' in ref) return fallbackRef;
   return (ref as RefObject<T> | null) ?? fallbackRef;
